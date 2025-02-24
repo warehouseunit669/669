@@ -1,0 +1,3 @@
+[build]
+  command = "npm run build"  # או הפקודה שבונה את הפרויקט
+  publish = "dist"  # הנתיב שבו נמצאים הקבצים לאחר הבנייה
