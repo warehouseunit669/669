@@ -1,0 +1,11 @@
+.header-page{
+    direction: rtl;
+    color: #5A5C69;
+    font-weight: 500;
+    font-size: 210%;
+}
+
+.para-page {
+    direction: rtl;
+    font-size: 130%;
+}

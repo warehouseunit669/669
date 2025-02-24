@@ -1,0 +1,45 @@
+#topbar-title {
+    font-weight: 600;
+    font-size: 130%;
+    color:#5A5C69;
+    
+}
+
+/* Media query for phone-sized screens */
+@media screen and (max-width: 767px) { /* Adjust this breakpoint as needed */
+    #topbar-title {
+        font-size: 75%; /* Adjust this value for smaller screens */
+        padding-left: 20px;
+    }
+
+    #topbar-title-hamburger {
+        width: 100%;
+        margin-right: 0px !important;
+    }
+
+    #toggle-sidebar {
+        width: 60px;
+    }
+}
+
+#topbar-username {
+    color:#5A5C69;
+    font-size: 15px;
+    padding-bottom: 4px;
+}
+
+#hamburger-icon-navbar {
+    border: solid transparent;
+    background-color: none;
+    width: 50%;
+    max-width: 50%;
+}
+
+#toggle-sidebar {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}

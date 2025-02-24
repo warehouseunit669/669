@@ -1,0 +1,13 @@
+/* Media query for small screens (phone sizes) */
+@media screen and (max-width: 789px) {
+    .scrollable-table {
+      overflow-x: auto;
+    }
+  
+    .sticky-col {
+      position: sticky;
+      left: 0;
+      background-color: white; /* Match the background color of your table */
+      z-index: 100;
+    }
+  }
